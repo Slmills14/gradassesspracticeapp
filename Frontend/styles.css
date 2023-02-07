@@ -1,0 +1,66 @@
+#mainbox {
+ width: 100em;
+ height: 100em;
+ border: 5px double;
+ border-color: navy;
+ position:relative;
+ display: flex;
+ text-align: center;
+ flex-direction: column;
+ align-content: center;
+ margin-top: 7em;
+ left: 10em;
+
+
+}
+
+/* #addnew { 
+  border: 2px solid;
+  flex-direction: row;
+  height: 5em;
+  width: 90em;
+  align-self: center;
+  justify-content: center;
+ 
+CAN DELETE THIS ONCE I GET THE OTHER STYLING FIGURED OUT!!!
+} */
+
+#addtodo {
+ height: auto;
+ width:90em;
+ margin:auto;
+/* TEXTBOX */
+} 
+
+#addbutton {
+margin:auto;
+/* ADD TODO TO THE LIST BUTTON */
+}
+
+#todo {
+ border: 2px solid;
+ border-color: black;
+ height:5em;
+ width:90em;
+ justify-content: center;
+ margin:auto;
+ /* BOX TO HOLD THE LIST OF TODOS */
+
+}
+
+#todobutton {
+ max-height: 40px;
+ max-width: 40px;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ vertical-align: auto;
+ /* BUTTONS TO EDIT, DELETE, CHECK OFF TODOS */
+ 
+}
+
+#todobuttonimages {
+ max-height: 30px;
+ max-width: 30px;
+ /* IMAGES THAT GO IN THE EDIT/DELETE/CHECK OFF BUTTONS */
+}
